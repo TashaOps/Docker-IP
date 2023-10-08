@@ -1,23 +1,9 @@
-# Requirements
-Make sure that you have the following installed:
-- [node](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-18-04) 
-- npm 
-- [MongoDB](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/) and start the mongodb service with `sudo service mongod start`
+# first created a client docker image named tashaops/docker-client and tagged it as 1.0
+# next step was to push the image to docker hub and versioned it as 1.0
+# Git pushed the docker file in client to github and the description given to it was "created dockerfile in client"
 
-## Navigate to the Client Folder 
- `cd client`
 
-## Run the folllowing command to install the dependencies 
- `npm install`
+# first created a client docker image named tashaops/docker-backend and tagged it as 1.0
+# next step was to push the image to docker hub and versioned it as 1.0
+# Git pushed the docker file in client to github and the description given to it was "created dockerfile in backend"
 
-## Run the folllowing to start the app
- `npm start`
-
-## Open a new terminal and run the same commands in the backend folder
- `cd ../backend`
-
- `npm install`
-
- `npm start`
-
- ### Go ahead a nd add a product (note that the price field only takes a numeric input)
