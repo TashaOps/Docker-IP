@@ -1,20 +1,23 @@
+Requirements
+Make sure that you have the following installed:
 
-First Commit was to Setting up project structure and creation of Dockerfiles for both the client and the backend.
+node
+npm
+MongoDB and start the mongodb service with sudo service mongod start
+Navigate to the Client Folder
+cd client
 
-Client Dockerfile: Defines the Dockerfile for the React frontend which includes copying source code and installing all dependencies.
+Run the folllowing command to install the dependencies
+npm install
 
-Backend Dockerfile: Creating the Dockerfile for the Node.js backend, clearly outlining the source code and installing all the required Node modules.
+Run the folllowing to start the app
+npm start
 
-Docker Compose file: Introducing a Docker Compose file at this stage to manage orchestration for the client and backend servicesrespectively.
+Open a new terminal and run the same commands in the backend folder
+cd ../backend
 
-Network Configuration: Configuring the network settings in Docker-Compose to ensure seamless communication between the client and backend containers.
+npm install
 
-Environment Variables: Adding environment variables in the Compose file to pass configuration values to the Node.js backend.
+npm start
 
-Database Container: Incorporation of MongoDB into the Docker Compose setup.
-
-Linking the services: Setting up service linking in Docker-Compose to enable the client to communicate with the backend.
-
-Building and Running: building and running the Docker containers for both client and backend.
-
-Documentation in the README.md file 
+Go ahead a nd add a product (note that the price field only takes a numeric input)
