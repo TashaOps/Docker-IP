@@ -18,7 +18,8 @@ services:
         image: tashaops/docker-backend:1.0
         restart: always
         ports:
-            - "5000:5000"
+            - "5000:5000"    
+            #working_dir: /backend
         volumes:
             - ./backend:/backend
             - /backend/node_modules
